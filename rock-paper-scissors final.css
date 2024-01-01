@@ -1,0 +1,45 @@
+.headingRPS{
+  font-weight: bold;
+  font-size: large;
+  color: white;
+}
+body{
+  background-color: rgb(25, 25, 25);
+}
+.RPS{
+  background-color: rgb(25, 25, 25);
+  padding: 20px;
+}
+.js-gameResults-2,
+.js-gameResults-1,
+.js-score{
+  color: white;
+  font-weight: bold;
+}
+.js-gameResults-1{
+  font-weight: bold;
+  font-size: large
+}
+.rock-button,
+.paper-button,
+.scissors-button{
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 300px;
+  object-fit: contain;
+  display: flex;
+  background-color: transparent;
+  padding: px;
+  border: 3px solid white;
+}
+.reset{
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 0cap;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 15px;
+}
