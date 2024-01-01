@@ -9,6 +9,10 @@ body{
 .RPS{
   background-color: rgb(25, 25, 25);
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .js-gameResults-2,
 .js-gameResults-1,
@@ -19,6 +23,9 @@ body{
 .js-gameResults-1{
   font-weight: bold;
   font-size: large
+}
+.js-score{
+  margin-bottom: 50px;
 }
 .rock-button,
 .paper-button,
